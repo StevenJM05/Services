@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Services.Domain.Exceptions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5f0507ee7962f12b418d90bd2436c85a7e38946")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be4825d57f7b4edfcd039920e9bd0e25022cc835")]
 [assembly: System.Reflection.AssemblyProductAttribute("Services.Domain.Exceptions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Services.Domain.Exceptions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

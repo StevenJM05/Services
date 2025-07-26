@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Services.Register.Handlers")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Services.Exceptions")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be4825d57f7b4edfcd039920e9bd0e25022cc835")]
-[assembly: System.Reflection.AssemblyProductAttribute("Services.Register.Handlers")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Services.Register.Handlers")]
+[assembly: System.Reflection.AssemblyProductAttribute("Services.Exceptions")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Services.Exceptions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

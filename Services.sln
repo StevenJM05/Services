@@ -1,13 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{52D9501D-52E1-41DD-8363-8069D7C52369}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Register", "Register", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Register", "Services.Register\Services.Register.csproj", "{7007FD14-51C0-4D61-B55E-019A49F52D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Register.Api", "Services.Register.Api\Services.Register.Api.csproj", "{63EAB33E-10B5-7B00-11C3-AC564D78B242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Register.Data", "Services.Register.Data\Services.Register.Data.csproj", "{84888293-6AF7-5508-8778-353F0C985C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Register.Handlers", "Services.Register.Handlers\Services.Register.Handlers.csproj", "{1C429E70-B017-9631-6697-392478AA94CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthServer", "AuthServer", "{94457BD0-3C38-40C7-B7A9-94F612094419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{9791D1CE-097F-4AC1-8D04-9940635CB2A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Domain.Exceptions", "Services.Domain.Exceptions\Services.Domain.Exceptions.csproj", "{CCF013F2-7B10-EB10-361C-BD9D5CDB2B7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +35,32 @@ Global
 		{7007FD14-51C0-4D61-B55E-019A49F52D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7007FD14-51C0-4D61-B55E-019A49F52D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7007FD14-51C0-4D61-B55E-019A49F52D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63EAB33E-10B5-7B00-11C3-AC564D78B242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EAB33E-10B5-7B00-11C3-AC564D78B242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EAB33E-10B5-7B00-11C3-AC564D78B242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EAB33E-10B5-7B00-11C3-AC564D78B242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84888293-6AF7-5508-8778-353F0C985C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84888293-6AF7-5508-8778-353F0C985C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84888293-6AF7-5508-8778-353F0C985C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84888293-6AF7-5508-8778-353F0C985C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C429E70-B017-9631-6697-392478AA94CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C429E70-B017-9631-6697-392478AA94CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C429E70-B017-9631-6697-392478AA94CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C429E70-B017-9631-6697-392478AA94CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF013F2-7B10-EB10-361C-BD9D5CDB2B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF013F2-7B10-EB10-361C-BD9D5CDB2B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF013F2-7B10-EB10-361C-BD9D5CDB2B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF013F2-7B10-EB10-361C-BD9D5CDB2B7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7007FD14-51C0-4D61-B55E-019A49F52D67} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{63EAB33E-10B5-7B00-11C3-AC564D78B242} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{84888293-6AF7-5508-8778-353F0C985C86} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1C429E70-B017-9631-6697-392478AA94CA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CCF013F2-7B10-EB10-361C-BD9D5CDB2B7A} = {9791D1CE-097F-4AC1-8D04-9940635CB2A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C336E8A1-6891-4949-BA65-6B711C3F8B6C}
